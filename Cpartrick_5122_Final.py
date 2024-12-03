@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import altair as alt
 
-cmpd_final = pd.read_csv("cmpd_final.csv")
+cmpd_final = pd.read_csv("data/cmpd_final.csv")
 
 # Set the page configuration
 st.set_page_config(layout="wide")
@@ -20,7 +20,7 @@ features = cmpd_final.select_dtypes(include=['object']).columns.tolist()
 col1, col2, col3, col4, col5 = st.columns([1, 2, 1, 2, 1])
 
 # Center the title
-st.markdown("<h1 style='text-align: center;'>Charlotte Mecklenberg Police Department (CMPD) Traffic Stopsvyivuibuo</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Charlotte Mecklenberg Police Department (CMPD) Traffic Stops</h1>", unsafe_allow_html=True)
 
 # Place the image in the center column
 with col3:
