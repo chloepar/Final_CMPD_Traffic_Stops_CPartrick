@@ -27,7 +27,7 @@ with col3:
     st.image('data/CMPD Logo.jpeg', caption='CMPD Logo', width=200)
 
 with st.expander('About this app'):
-  st.write('This app shows the information related to historical CMPD traffic stops. There are options to analyze items based on your own selections, along with pre-built charts.')
+  st.write('This app shows data related to historical CMPD traffic stops. There are options to analyze items based on your own selections, along with pre-built charts.')
 
 # Aggregate the data
 agg_df = cmpd_final.groupby('Race/Ethnicity').agg(
