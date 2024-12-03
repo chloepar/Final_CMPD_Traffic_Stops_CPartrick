@@ -24,7 +24,7 @@ st.markdown("<h1 style='text-align: center;'>Charlotte Mecklenberg Police Depart
 
 # Place the image in the center column
 with col3:
-    st.image('CMPD Logo.jpeg', caption='CMPD Logo', width=200)
+    st.image('data/CMPD Logo.jpeg', caption='CMPD Logo', width=200)
 
 with st.expander('About this app'):
   st.write('This app shows the information related to historical CMPD traffic stops. There are options to analyze items based on your own selections, along with pre-built charts.')
