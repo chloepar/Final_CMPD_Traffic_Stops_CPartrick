@@ -167,6 +167,10 @@ cmpd_final.to_csv('data/cmpd_final.csv', index=False)
 # Set the page configuration
 st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
+# Initialize current_page in session state
+if "current_page" not in st.session_state:
+    st.session_state.current_page = "About this app"  # Set a default value, e.g., "summary"
+
 # Switch Page
 
 def switch_page(page: str):
