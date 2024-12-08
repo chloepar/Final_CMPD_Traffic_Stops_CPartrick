@@ -14,7 +14,7 @@ I got my data for traffic stops from a publicly available website: https://www.o
 
 I got my data for the Charlotte population from: https://datausa.io/profile/geo/charlotte-nc/
 
-I had to do a fair bit of work to modify the traffic stops data sets, as many of the rates are based on custom calculations and the format of the data was not optimal when I originally downloaded it. There were a lot of custom splits I needed to do in Tableau to account for this. The census data was in pretty good shape but I needed to do some additional work to manually define some of the ethnicities to ensure they were in the same groups that I already had for the traffic stop data.
+I had to do a fair bit of work to modify the traffic stops data sets, as many of the rates are based on custom calculations and the format of the data was not optimal when I originally downloaded it. There were a lot of custom splits I needed to do in python to account for this. The census data was in pretty good shape but I needed to do some additional work to manually define some of the ethnicities to ensure they were in the same groups that I already had for the traffic stop data.
 
 ### Future Work
 
