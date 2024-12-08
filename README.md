@@ -17,4 +17,4 @@ I had to do a fair bit of work to modify the traffic stops data sets, as many of
 
 ### Future Work
 
-I would like to further analyze the differences in types of traffic stops, and how that may be impacted by ethnicity. If possible, I am also hoping to look into different by division and location within the city of Charlotte.
+I would like to further analyze the differences in types of traffic stops, and how that may be impacted by ethnicity. If possible, I am also hoping to look into differences by division and location within the city of Charlotte.
